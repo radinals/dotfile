@@ -1,0 +1,76 @@
+### General Settings
+refresh-on-startup yes
+prepopulate-query-feeds yes
+max-items 1000
+auto-reload yes
+reload-time 30
+wrap-scroll yes
+show-keymap-hint no
+download-retries 5
+download-path "$HOME/Downloads"
+player "mpv %u"
+browser "elinks %u" 
+itemview-title-format "'%T' (%u/%t)"
+articlelist-title-format "'%T' (%u/%t)"
+feedlist-title-format "Feeds (%u/%t)"
+
+### Bindings
+unbind-key j
+unbind-key k
+unbind-key h
+unbind-key H
+unbind-key L
+unbind-key c
+unbind-key ,
+
+bind-key ; macro-prefix
+bind-key h quit
+bind-key BACKSPACE quit
+bind-key j down
+bind-key k up
+bind-key l open
+bind-key H prev-feed
+bind-key L next-feed
+bind-key c toggle-show-read-feeds
+
+## Macros
+# open video in mpv
+macro V set browser "mpv --ytdl-format='best' %u" ; open-in-browser ; set browser "elinks %u"
+macro v set browser "mpv --ytdl-format='worst' %u" ; open-in-browser ; set browser "elinks %u"
+
+# open audio only
+macro A set browser "mpv --ytdl-format='best ' %u --no-video" ; open-in-browser ; set browser "elinks %u"
+macro a set browser "mpv --ytdl-format='worst ' --user-agent='Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36' %u --no-video" ; open-in-browser ; set browser "elinks %u"
+
+macro O set browser "$BROWSER %u"; open-in-browser; set browser "elinks %u"
+
+### Colors and Highlights    fg        bg #
+color background           default   default
+
+color listnormal           default   default
+color listnormal_unread    blue     default
+
+color listfocus            black     white
+color listfocus_unread     black     white
+
+color info                 default   default
+color article              default   default
+
+highlight article "^(Title):.*$" red default
+highlight article "^(Author):.*$" green default
+highlight article "^(Date):.*$" yellow default
+
+highlight article "https?://[^ ]+" blue default
+highlight article "\\[image\\ [0-9]+\\]" blue default
+
+# ignore-mode "download"
+ignore-mode "display"
+ignore-article "*" "title =~ \".*Brigadir J.*\""
+ignore-article "*" "title =~ \".*Bharada E.*\""
+ignore-article "*" "title =~ \".*Ferdy Sambo.*\""
+ignore-article "*" "content =~ \".*Ferdy Sambo.*\""
+
+ignore-article "https://www.tribunnews.com/rss" "title=~ \"Chord.*\""
+ignore-article "https://www.tribunnews.com/rss" "title=~ \"Lirik Lagu.*\""
+ignore-article "https://www.tribunnews.com/rss" "title=~ \"Kunci Jawaban.*\""
+ignore-article "https://moxie.foxnews.com/feedburner/latest.xml" "title=~ \".*lottery.*\""
