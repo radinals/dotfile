@@ -1,0 +1,15 @@
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+export PS1="\[\033[38;5;9m\]\u\[$(tput sgr0)\]@\[$(tput sgr0)\]\[\033[38;5;12m\]\h\[$(tput sgr0)\]:\w \[$(tput sgr0)\]\[\033[38;5;10m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\]\\$ \[$(tput sgr0)\]"
+
+[ -f "/et/profile.d/vte*.sh" ] && source /etc/profile.d/vte*.sh
+
+export TERMINAL='/usr/local/bin/st'
+export EDITOR='/usr/bin/nvim'
+export VISUAL='/usr/bin/nvim'
+export PATH="$HOME/.local/bin:$HOME/.local/bin/scripts:$PATH"
+HISTFILE=~/.cache/bash/bash_history
+
+# enable vi-navigation mode
+# vi mode
