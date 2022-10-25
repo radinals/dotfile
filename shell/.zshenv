@@ -55,16 +55,16 @@ export ICEAUTHORITY="$XDG_CACHE_HOME/ICEauthority"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 # xinitrc
-export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
+export XINITRC="$HOME/.xinitrc"
 
-# xserverrc
-export XSERVERRC="$XDG_CONFIG_HOME/X11/xserverrc"
+# # xserverrc
+# export XSERVERRC="$HOME/.xserverrc"
 
 # xresources
-export XRESOURCESRC="$XDG_CONFIG_HOME/X11/Xresources"
+export XRESOURCESRC="$HOME/.Xresources"
 
-# xmodmap
-export XMODMAPRC="$XDG_CONFIG_HOME/X11/Xmodmap"
+# # xmodmap
+# export XMODMAPRC="$HOME/.Xmodmap"
 
 # Disable less history
 export LESSHISTFILE=-
