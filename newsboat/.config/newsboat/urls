@@ -2,22 +2,18 @@ http://rss.cnn.com/rss/cnn_topstories.rss News News_Topstories
 http://rss.cnn.com/rss/edition_world.rss News News_International
 http://rss.cnn.com/rss/edition_americas.rss News News_Americas_Region
 http://rss.cnn.com/rss/edition_africa.rss News News_Africa_Region
-
 http://feeds.foxnews.com/foxnews/national News News_Americas_Region
 http://feeds.foxnews.com/foxnews/world News News_International
 http://feeds.foxnews.com/foxnews/politics News News_Politics
 http://feeds.foxnews.com/foxnews/tech News News_Technology
 http://feeds.foxnews.com/foxnews/scitech News News_Technology
-
 https://rss.tempo.co/nasional News News_National
 https://www.cnnindonesia.com/nasional/rss News News_National
 https://asiatimes.com/feed/ News News_International
 https://www.tribunnews.com/rss News News_National
-
 https://nypost.com/feed News News News_Topstories
 https://nypost.com/news/feed/ News news News_International
 https://nypost.com/tech/feed/ News News_Technology
-
 http://feeds.bbci.co.uk/news/world/rss.xml News News_International
 http://feeds.bbci.co.uk/news/world/asia/rss.xml News News_Asia_Region
 http://feeds.bbci.co.uk/news/uk/rss.xml News News_Europe_Region
@@ -25,8 +21,6 @@ http://feeds.bbci.co.uk/news/health/rss.xml News News_Health
 http://feeds.bbci.co.uk/news/business/rss.xml News News_Financial
 http://feeds.bbci.co.uk/news/technology/rss.xml News News_Technology
 http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/sci/tech/rss.xml News News_Technology
-
-https://www.cnet.com/rss/news/ News News_Technology
 https://www.theregister.com/software/ai_ml/headlines.atom News News_Technology
 https://www.theregister.com/software/applications/headlines.atom News News_Technology
 https://www.theregister.com/software/devops/headlines.atom News News_Technology
@@ -39,127 +33,119 @@ https://hnrss.org/newest News News_Technology
 https://www.cyberciti.biz/atom/atom.xml Blog Blog_Technology
 https://static.fsf.org/fsforg/rss/news.xml News News_Technology
 https://lifehacker.com/rss Blog Blog_Technology
-
 https://stallman.org/rss/rss.xml Blogs Blog_Political
 https://static.fsf.org/fsforg/rss/blogs.xml  Blogs Blog_Technology
-https://lukesmith.xyz/rss.xml Blogs Blog_Political
-
+https://lukesmith.xyz/rss.xml Blogs Blog_Political Luke_Smith
 http://feeds.feedburner.com/0AdNews?format=xml Software_Updates
 https://neovim.io/news.xml Software_Updates
 http://suckless.org/atom.xml Software_Updates
 https://distrowatch.com/news/dw.xml Software_Updates
 https://www.kernel.org/feeds/kdist.xml Software_Updates
 https://www.kernel.org/feeds/all.atom.xml Software_Updates
-
 https://librivox.org/rss/latest_releases Online_Library_Update
 https://www.gutenberg.org/cache/epub/feeds/today.rss Online_Library_Update
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UClnDI2sdehVm1zm_LmUHsjQ Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCN9v4QG3AQEP3zuRvVs2dAg Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCwO-UgquohXwoe7f0e6lMnw Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCMmaBzfCCwZ2KqaBJjkj0fw Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCeUJFQ0D9qs6aVNyUt9fkeQ Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUcyEsEjhPEDf69RRVhRh4A Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCP1AejCL4DA7jYkZAELRhHQ Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLfMmOriSyPbd5JhHpnj4Ng Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCB1eDEd1AYG3YrRIJSZzMOQ Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC88lvyJe7aHZmcvzvubDFRg Video_Feed Youtube_Channel Youtube_History 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3fOzMSxcmCXZLmAM9vy1IQ Video_Feed Youtube_Channel Youtube_History 
-
-https://lukesmith.xyz/videos Video_Feed Video_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCfp-lNJy4QkIGnaEE6NtDSg Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTjmLCEVb9r1OpFDJMMWyIw Video_Feed Youtube_Channel Youtube_Electronic Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFX1Z9N6aPWuCN_KR8UZ2vg Video_Feed Youtube_Channel Youtube_Electronic Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCk0fGHsCEzGig-rSzkfCjMw Video_Feed Youtube_Channel Youtube_Electronic Youtube_Technology
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UC_0CVCfC_3iuHqmyClu59Uw Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCTiICpPNhXz5IKpYYMIwm8Q Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC-yuWVUplUJZvieEligKBkA Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCXR5PCyUI2pG_a3ydnCIS-g Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPkdxlAKf-V33tqXwi3Q Video_Feed Youtube_Channel Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWoSKWs8h6lFdiEDAjuIfpA Video_Feed Youtube_Channel Youtube_Technology
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCmyGZ0689ODyReHw3rsKLtQ Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC5SVFLxRP-sxWB6sHytUtVg Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCIme1suHyN7cAGrTy8RBdhQ Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC6vBLLp4V4cO6-58WBOIO2Q Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology Programming
-https://www.youtube.com/feeds/videos.xml?channel_id=UCWv7vMbMWH4-V0ZXdmDpPBA Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology Programming
-https://www.youtube.com/feeds/videos.xml?channel_id=UC1t6kKXoBvjdr8m9KJ2Fx7A Video_Feed Youtube_Channel Youtube_Lectures
-https://www.youtube.com/feeds/videos.xml?channel_id=UCiDJtJKMICpb9B1qf7qjEOA Video_Feed Youtube_Channel Youtube_Crafting 
-https://www.youtube.com/feeds/videos.xml?channel_id=UChiwLDIBJrV5SxqdixMHmQA Video_Feed Youtube_Channel Youtube_Carshow 
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCAp990eMLzmei84WNR4ptgA Video_Feed Youtube_Channel Youtube_Podcast 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ Video_Feed Youtube_Channel Youtube_Podcast 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA Video_Feed Youtube_Channel Youtube_Podcast 
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q Video_Feed Youtube_Channel Youtube_Documentary
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFkFUrV28yy4kpg9b6LNhuQ Video_Feed Youtube_Channel Youtube_TrueCrime 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC1s9576cQFdQq3QTtTxocmA Video_Feed Youtube_Channel Youtube_TrueCrime 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCs3iFCPtX0gzkKxCrobO4ig Video_Feed Youtube_Channel Youtube_TrueCrime 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2Bz8MkHXZgCdi6voGQ0v0Q Video_Feed Youtube_Channel Youtube_TrueCrime 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVXKabRhXSQXh_U0au5JSzQ Video_Feed Youtube_Channel Youtube_TrueCrime 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCUHYDeruC9fR-MKaDYsQBlQ Video_Feed Youtube_Channel Youtube_TrueCrime
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UC0M0rxSz3IF0CsSour1iWmw Video_Feed Youtube_Channel Youtube_Reviews 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCM7Srv4mxJejt2NLmumkRRQ Video_Feed Youtube_Channel Youtube_Reviews 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaEOfvyMhGEc1LrYC_JbJbA Video_Feed Youtube_Channel Youtube_Reviews 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCDC0cYnLdXtMoTdQTfgjozw Video_Feed Youtube_Channel Youtube_Reviews 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSJPFQdZwrOutnmSFYtbstA Video_Feed Youtube_Channel Youtube_Reviews 
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvgfXK4nTYKudb0rFR6noLA Video_Feed Youtube_Channel Youtube_Sport Youtube_MMA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCiormkBf3jm6mfb7k0yPbKA Video_Feed Youtube_Channel Youtube_Sport Youtube_MMA
-https://www.youtube.com/feeds/videos.xml?channel_id=UCnkMTsKYqhHm6l6GQzg4szg Video_Feed Youtube_Channel Youtube_Sport Youtube_MMA
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UCYp3rk70ACGXQ4gFAiMr1SQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCLVz1B001PIbq9LliJenV2w Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCRXaOr2-9CJTMqQH5A5GYZQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCRDAAwRszJt90FmM_A4-naQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCW_p3kmywfMWDI-yR03LXDQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCi2KNss4Yx73NG0JARSFe0A Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC98tcedR6gULv8_b70WJKyw Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC34wpCgr3l9cG0RtFdTTS-Q Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCIVzbVm64h2LrkHpwq4nSOg Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4BSeEq7XNtihGqI309vhYg Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCvyodbvaI_lK41GnPd7BCrQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCToiTDJNmKtyBHAUUsbdZnQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCe3JCin4Gnv9azlWnAs5keg Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCaisXKBdNOYqGr2qOXCLchQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCRUh-7YyUCBTw2FjhS_jJAw Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSm88leWGF-2GxgitSdQ7Zw Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCIPN3XIDtyAVP6GWYsE7pQQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC4_yA-FDGB3Zwmk96E7yujA Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOxhwqKKlVq_NaD0LVffGuw Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSldglor1t-5E-Gy2eBdMrA Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCG7AaCh_CiG6pq_rRDNw72A Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCoxg3Kml41wE3IPq-PC-LQw Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC8JE00xTMBOqKs7o0grFTfQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCFPzKZg-By8_DtBJiEDLcJw Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC7WCtSNKb7MGjdzu8Btkg_g Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCA7S5M8w5X4P1NRzaJ4lsrg Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCOJZ1tna8yj8mAEITPkHNCQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCjPsvugkwOr9oOk8D7icstQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCDoF1mKqh7C29W3eA6jdrIQ Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCS42Pk262iOKUXUW9XW_SOg Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCzCWehBejA23yEz3zp7jlcg Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCB_Z6rBg3WW3NL4-QimhC2A Video_Feed Youtube_Channel Youtube_Music 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC1wUo-29zS7m_Jp-U_xYcFQ Video_Feed Youtube_Channel Youtube_Music 
-
-https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ Video_Feed Youtube_Channel Youtube_LateNightShow 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCVTyTA7-g9nopHeHbeuvpRA Video_Feed Youtube_Channel Youtube_LateNightShow 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCMtFAi84ehTSYSE9XoHefig Video_Feed Youtube_Channel Youtube_LateNightShow 
+https://www.youtube.com/feeds/videos.xml?channel_id=UClnDI2sdehVm1zm_LmUHsjQ Video_Feed Youtube_Channel Youtube_History Biographics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCN9v4QG3AQEP3zuRvVs2dAg Video_Feed Youtube_Channel Youtube_History History_Time
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwO-UgquohXwoe7f0e6lMnw Video_Feed Youtube_Channel Youtube_History Invicta
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMmaBzfCCwZ2KqaBJjkj0fw Video_Feed Youtube_Channel Youtube_History Kings_and_Generals
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeUJFQ0D9qs6aVNyUt9fkeQ Video_Feed Youtube_Channel Youtube_History The_Armchair_Historian
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUcyEsEjhPEDf69RRVhRh4A Video_Feed Youtube_Channel Youtube_History The_Great_War
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP1AejCL4DA7jYkZAELRhHQ Video_Feed Youtube_Channel Youtube_History World_War_Two
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLfMmOriSyPbd5JhHpnj4Ng Video_Feed Youtube_Channel Youtube_History TimeGhost_History
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB1eDEd1AYG3YrRIJSZzMOQ Video_Feed Youtube_Channel Youtube_History Real_Time_History
+https://www.youtube.com/feeds/videos.xml?channel_id=UC88lvyJe7aHZmcvzvubDFRg Video_Feed Youtube_Channel Youtube_History Timeline
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3fOzMSxcmCXZLmAM9vy1IQ Video_Feed Youtube_Channel Youtube_History War_Stories
+https://lukesmith.xyz/videos Video_Feed Video_Technology Luke_Smith
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg Video_Feed Youtube_Channel Youtube_Technology Distrotube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA Video_Feed Youtube_Channel Youtube_Technology Brodie_Robertson
+# https://www.youtube.com/feeds/videos.xml?channel_id=UCfp-lNJy4QkIGnaEE6NtDSg Video_Feed Youtube_Channel Youtube_Technology TerminalForLife
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA Video_Feed Youtube_Channel Youtube_Technology Mental_Outlaw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA Video_Feed Youtube_Channel Youtube_Technology Brian_Lunduke
+https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w Video_Feed Youtube_Channel Youtube_Technology Louis_Rossman
+https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ Video_Feed Youtube_Channel Youtube_Technology Chris_Titus_Tech
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw Video_Feed Youtube_Channel Youtube_Technology The_Linux_Experiment
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ Video_Feed Youtube_Channel Youtube_Technology LGR
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTjmLCEVb9r1OpFDJMMWyIw Video_Feed Youtube_Channel Youtube_Electronic StezStix_Fix?
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2-SP1bYi3ueKlVU7I75wFw Video_Feed Youtube_Channel Youtube_Electronic Noels_Retro_Lab
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFX1Z9N6aPWuCN_KR8UZ2vg Video_Feed Youtube_Channel Youtube_Electronic Learn_Electronic_Repair
+https://www.youtube.com/feeds/videos.xml?channel_id=UCk0fGHsCEzGig-rSzkfCjMw Video_Feed Youtube_Channel Youtube_Electronic The_Engineering_Mindset
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_0CVCfC_3iuHqmyClu59Uw Video_Feed Youtube_Channel Youtube_Technology ETA_PRIME
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg Video_Feed Youtube_Channel Youtube_Technology Jeff_Gerling
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTiICpPNhXz5IKpYYMIwm8Q Video_Feed Youtube_Channel Youtube_Technology Bithead1000
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw Video_Feed Youtube_Channel Youtube_Technology ThePrimeagen
+https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA Video_Feed Youtube_Channel Youtube_Technology TJ_DeVries
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-yuWVUplUJZvieEligKBkA Video_Feed Youtube_Channel Youtube_Technology javidx9
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA Video_Feed Youtube_Channel Youtube_Technology Computerphile
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXR5PCyUI2pG_a3ydnCIS-g Video_Feed Youtube_Channel Youtube_Technology Neshacker
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPkdxlAKf-V33tqXwi3Q Video_Feed Youtube_Channel Youtube_Technology HackerSploit
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWoSKWs8h6lFdiEDAjuIfpA Video_Feed Youtube_Channel Youtube_Technology Displaced_Gamer
+https://www.youtube.com/feeds/videos.xml?channel_id=UCmyGZ0689ODyReHw3rsKLtQ Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology Michael_Tunnel
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWJUSpXVHTaHErtGWC5qPlQ Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology Tux_Digital
+https://www.youtube.com/feeds/videos.xml?channel_id=UCHugE6eRhqB9_AZQh4DDbIw Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology Jupiter_Broadcasting
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5SVFLxRP-sxWB6sHytUtVg Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology Linux_Out_Loud
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIme1suHyN7cAGrTy8RBdhQ Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology DasGeek
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6vBLLp4V4cO6-58WBOIO2Q Video_Feed Youtube_Channel Youtube_Podcast Youtube_Technology Destination_Linux
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology freeCodeCamp.org
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology Programming mcoding
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWv7vMbMWH4-V0ZXdmDpPBA Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology Programming Programming_with_mosh
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1t6kKXoBvjdr8m9KJ2Fx7A Video_Feed Youtube_Channel Youtube_Lectures Gresham_College
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiDJtJKMICpb9B1qf7qjEOA Video_Feed Youtube_Channel Youtube_Crafting Adam_Savages_Tested
+https://www.youtube.com/feeds/videos.xml?channel_id=UChiwLDIBJrV5SxqdixMHmQA Video_Feed Youtube_Channel Youtube_Carshow DRIVETRIBE
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAp990eMLzmei84WNR4ptgA Video_Feed Youtube_Channel Youtube_Podcast Bill_Burr
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ Video_Feed Youtube_Channel Youtube_Podcast PowerfullJRE
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA Video_Feed Youtube_Channel Youtube_Podcast Lex_Fridman
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW39zufHfsuGgpLviKh297Q Video_Feed Youtube_Channel Youtube_Documentary DW_Documentary
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFkFUrV28yy4kpg9b6LNhuQ Video_Feed Youtube_Channel Youtube_TrueCrime True_Crime_Central
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1s9576cQFdQq3QTtTxocmA Video_Feed Youtube_Channel Youtube_TrueCrime Real_Crime
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs3iFCPtX0gzkKxCrobO4ig Video_Feed Youtube_Channel Youtube_TrueCrime Criminally_Listed
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2Bz8MkHXZgCdi6voGQ0v0Q Video_Feed Youtube_Channel Youtube_TrueCrime Beyond_Evil
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVXKabRhXSQXh_U0au5JSzQ Video_Feed Youtube_Channel Youtube_TrueCrime EWU_Crime_Storytime
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUHYDeruC9fR-MKaDYsQBlQ Video_Feed Youtube_Channel Youtube_TrueCrime Truly_Criminal
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0M0rxSz3IF0CsSour1iWmw Video_Feed Youtube_Channel Youtube_Reviews Cinemassacre
+https://www.youtube.com/feeds/videos.xml?channel_id=UCM7Srv4mxJejt2NLmumkRRQ Video_Feed Youtube_Channel Youtube_Reviews Whatculture
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaEOfvyMhGEc1LrYC_JbJbA Video_Feed Youtube_Channel Youtube_Reviews Whatculture_Comics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDC0cYnLdXtMoTdQTfgjozw Video_Feed Youtube_Channel Youtube_Reviews Whatculture_Horror
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSJPFQdZwrOutnmSFYtbstA Video_Feed Youtube_Channel Youtube_Reviews The_Critical_Drinker
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvgfXK4nTYKudb0rFR6noLA Video_Feed Youtube_Channel Youtube_Sport Youtube_MMA UFC
+https://www.youtube.com/feeds/videos.xml?channel_id=UCiormkBf3jm6mfb7k0yPbKA Video_Feed Youtube_Channel Youtube_Sport Youtube_MMA ONE_Championship
+https://www.youtube.com/feeds/videos.xml?channel_id=UCnkMTsKYqhHm6l6GQzg4szg Video_Feed Youtube_Channel Youtube_Sport Youtube_MMA BellatorMMA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYp3rk70ACGXQ4gFAiMr1SQ Video_Feed Youtube_Channel Youtube_Music Rammstein_Official
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1wUo-29zS7m_Jp-U_xYcFQ Video_Feed Youtube_Channel Youtube_Music TOOL
+https://www.youtube.com/feeds/videos.xml?channel_id=UCLVz1B001PIbq9LliJenV2w Video_Feed Youtube_Channel Youtube_Music Megadeath
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRXaOr2-9CJTMqQH5A5GYZQ Video_Feed Youtube_Channel Youtube_Music Grimes
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRDAAwRszJt90FmM_A4-naQ Video_Feed Youtube_Channel Youtube_Music Code_Orange
+https://www.youtube.com/feeds/videos.xml?channel_id=UCW_p3kmywfMWDI-yR03LXDQ Video_Feed Youtube_Channel Youtube_Music Death_Vomit_Official
+https://www.youtube.com/feeds/videos.xml?channel_id=UCi2KNss4Yx73NG0JARSFe0A Video_Feed Youtube_Channel Youtube_Music Foo_Fighters
+https://www.youtube.com/feeds/videos.xml?channel_id=UC98tcedR6gULv8_b70WJKyw Video_Feed Youtube_Channel Youtube_Music Frog_Leap_Studios
+https://www.youtube.com/feeds/videos.xml?channel_id=UC34wpCgr3l9cG0RtFdTTS-Q Video_Feed Youtube_Channel Youtube_Music Gojira
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIVzbVm64h2LrkHpwq4nSOg Video_Feed Youtube_Channel Youtube_Music IGNEA
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4BSeEq7XNtihGqI309vhYg Video_Feed Youtube_Channel Youtube_Music Jinjer_Metal_Band
+https://www.youtube.com/feeds/videos.xml?channel_id=UCvyodbvaI_lK41GnPd7BCrQ Video_Feed Youtube_Channel Youtube_Music Infected_Rain
+https://www.youtube.com/feeds/videos.xml?channel_id=UCToiTDJNmKtyBHAUUsbdZnQ Video_Feed Youtube_Channel Youtube_Music Blue_Oyster_Cult
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe3JCin4Gnv9azlWnAs5keg Video_Feed Youtube_Channel Youtube_Music Ozzy_Osbourne
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaisXKBdNOYqGr2qOXCLchQ Video_Feed Youtube_Channel Youtube_Music Iron_Maiden
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5mX9jQdmMRzCLfOJmeyhsg Video_Feed Youtube_Channel Youtube_Music Machine_Head
+https://www.youtube.com/feeds/videos.xml?channel_id=UChzFYBW7JICbmLd0VW6HyTQ Video_Feed Youtube_Channel Youtube_Music Annihilator
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4Prl7UQx5i5PgRUh-O5XBg Video_Feed Youtube_Channel Youtube_Music Sepultura
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOJZ1tna8yj8mAEITPkHNCQ Video_Feed Youtube_Channel Youtube_Music Slipknot
+https://www.youtube.com/feeds/videos.xml?channel_id=UCjPsvugkwOr9oOk8D7icstQ Video_Feed Youtube_Channel Youtube_Music Halestorm
+https://www.youtube.com/feeds/videos.xml?channel_id=UCrrhJmM3H7eyxrevc4lpRIw Video_Feed Youtube_Channel Youtube_Music The_Preety_Reckless
+https://www.youtube.com/feeds/videos.xml?channel_id=UCDoF1mKqh7C29W3eA6jdrIQ Video_Feed Youtube_Channel Youtube_Music Starcrawler
+https://www.youtube.com/feeds/videos.xml?channel_id=UCA7S5M8w5X4P1NRzaJ4lsrg Video_Feed Youtube_Channel Youtube_Music Slayer
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRUh-7YyUCBTw2FjhS_jJAw Video_Feed Youtube_Channel Youtube_Music Kreator
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeWsCPIN5FcU15R5_AA0Y5A Video_Feed Youtube_Channel Youtube_Music Dying_Fetus
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSm88leWGF-2GxgitSdQ7Zw Video_Feed Youtube_Channel Youtube_Music Unleash_The_Archers
+https://www.youtube.com/feeds/videos.xml?channel_id=UCIPN3XIDtyAVP6GWYsE7pQQ Video_Feed Youtube_Channel Youtube_Music Arch_Enemy
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4_yA-FDGB3Zwmk96E7yujA Video_Feed Youtube_Channel Youtube_Music Lamb_of_God
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8JE00xTMBOqKs7o0grFTfQ Video_Feed Youtube_Channel Youtube_Music Poppy
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7WCtSNKb7MGjdzu8Btkg_g Video_Feed Youtube_Channel Youtube_Music Garbage
+https://www.youtube.com/feeds/videos.xml?channel_id=UC_E54fzF2BPsy7Ig4aDygWA Video_Feed Youtube_Channel Youtube_Music RelapseRecord
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSldglor1t-5E-Gy2eBdMrA Video_Feed Youtube_Channel Youtube_Music Metal_Blade_Records
+https://www.youtube.com/feeds/videos.xml?channel_id=UCG7AaCh_CiG6pq_rRDNw72A Video_Feed Youtube_Channel Youtube_Music Napalm_Records
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzCWehBejA23yEz3zp7jlcg Video_Feed Youtube_Channel Youtube_Music Black_Metal_Promotion
+https://www.youtube.com/feeds/videos.xml?channel_id=UCoxg3Kml41wE3IPq-PC-LQw Video_Feed Youtube_Channel Youtube_Music Nuclear_Blast_Records
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFPzKZg-By8_DtBJiEDLcJw Video_Feed Youtube_Channel Youtube_Music Sershen_&_Zaritskaya
+https://www.youtube.com/feeds/videos.xml?channel_id=UCB_Z6rBg3WW3NL4-QimhC2A Video_Feed Youtube_Channel Youtube_Music The_Rolling_Stones
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ Video_Feed Youtube_Channel Youtube_LateNightShow LastWeekTonight
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVTyTA7-g9nopHeHbeuvpRA Video_Feed Youtube_Channel Youtube_LateNightShow Late_Night
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMtFAi84ehTSYSE9XoHefig Video_Feed Youtube_Channel Youtube_LateNightShow The_Late_Show
