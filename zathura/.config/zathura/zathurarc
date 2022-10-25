@@ -1,0 +1,61 @@
+### Configurations
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set selection-clipboard clipboard
+set font "monospace regular 6"
+
+### Keybindings
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+map g goto top
+
+### Gruvbox-Dark Theme
+set notification-error-bg       "#000000" # bg
+set notification-error-fg       "#fb4934" # bright:red
+set notification-warning-bg     "#000000" # bg
+set notification-warning-fg     "#fabd2f" # bright:yellow
+set notification-bg             "#000000" # bg
+set notification-fg             "#b8bb26" # bright:green
+
+set completion-bg               "#151515" # bg2
+set completion-fg               "#ebdbb2" # fg
+set completion-group-bg         "#3c3836" # bg1
+set completion-group-fg         "#928374" # gray
+set completion-highlight-bg     "#83a598" # bright:blue
+set completion-highlight-fg     "#151515" # bg2
+
+### Define the colors in index mode
+set index-bg                    "#151515" # bg2
+set index-fg                    "#ebdbb2" # fg
+set index-active-bg             "#83a598" # bright:blue
+set index-active-fg             "#151515" # bg2
+
+set inputbar-bg                 "#000000" # bg
+set inputbar-fg                 "#ebdbb2" # fg
+
+set statusbar-bg                "#151515" # bg2
+set statusbar-fg                "#ebdbb2" # fg
+
+set highlight-color             "#fabd2f" # bright:yellow
+set highlight-active-color      "#fe8019" # bright:orange
+
+set default-bg                  "#000000" # bg
+set default-fg                  "#ebdbb2" # fg
+set render-loading              true
+set render-loading-bg           "#000000" # bg
+set render-loading-fg           "#ebdbb2" # fg
+
+### Recolor Settings 
+set recolor-lightcolor          "#000000" # bg
+set recolor-darkcolor           "#ebdbb2" # fg
+set recolor                     "true"
+#set recolor-keephue             "true"    # keep original color

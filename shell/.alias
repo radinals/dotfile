@@ -1,0 +1,13 @@
+#
+# alias
+#
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias bc='bc -q'
+alias sha="shasum -a 256"
+alias v="nvim"
+alias vs="sudo nvim"
+alias top="htop"
+alias rm="rm -i"
+alias cp="cp -i"
+alias elinks='elinks -no-connect'

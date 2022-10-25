@@ -1,0 +1,57 @@
+set shiftwidth=4
+set splitbelow
+set splitright
+set scrolloff=30
+set smartcase
+set undofile
+set undodir=~/.vim/undodir/
+set wildmode=longest,list,full
+set nohlsearch
+
+set number
+set relativenumber
+set nowrap
+
+set tabstop=4
+set softtabstop=4
+set expandtab
+set smartindent
+set swapfile
+
+filetype plugin on
+syntax on
+
+augroup nvim_autocmd
+  autocmd!
+  "" Wrapping and Linebreaks for VimWiki.
+  autocmd BufRead,BufNewFile *.wiki  set wrap linebreak
+  "" Disables automatic commenting on newline.
+  autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+augroup END
+
+"" Mapping the Leader Key (space).
+let mapleader=" "
+
+"" Toggle Spell.
+map <C-s> :setlocal spell! spelllang=en_us<CR>
+
+"" Easier Window Resizing.
+noremap <silent> <C-Left> :vertical resize +3<CR>
+noremap <silent> <C-Right> :vertical resize -3<CR>
+noremap <silent> <C-Up> :resize +3<CR>
+noremap <silent> <C-Down> :resize -3<CR>
+
+"" Easier Window Navigation.
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+"" Easier Window Splitting.
+nnoremap <leader>h :split<Space>
+nnoremap <leader>v :vsplit<Space>
+
+" New tab
+nnoremap <C-t> :tabnew<Space>
+noremap <silent> <C-j> :tabprevious<CR>
+noremap <silent> <C-k> :tabnext<CR>
