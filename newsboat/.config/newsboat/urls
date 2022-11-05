@@ -39,7 +39,7 @@ https://lukesmith.xyz/rss.xml Blogs Blog_Political Luke_Smith
 http://feeds.feedburner.com/0AdNews?format=xml Software_Updates
 https://neovim.io/news.xml Software_Updates
 http://suckless.org/atom.xml Software_Updates
-https://distrowatch.com/news/dw.xml Software_Updates
+https://sparkylinux.org/feed/ Software_Updates
 https://www.kernel.org/feeds/kdist.xml Software_Updates
 https://www.kernel.org/feeds/all.atom.xml Software_Updates
 https://librivox.org/rss/latest_releases Online_Library_Update
@@ -55,7 +55,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCLfMmOriSyPbd5JhHpnj4Ng Vid
 https://www.youtube.com/feeds/videos.xml?channel_id=UCB1eDEd1AYG3YrRIJSZzMOQ Video_Feed Youtube_Channel Youtube_History Real_Time_History
 https://www.youtube.com/feeds/videos.xml?channel_id=UC88lvyJe7aHZmcvzvubDFRg Video_Feed Youtube_Channel Youtube_History Timeline
 https://www.youtube.com/feeds/videos.xml?channel_id=UC3fOzMSxcmCXZLmAM9vy1IQ Video_Feed Youtube_Channel Youtube_History War_Stories
-https://lukesmith.xyz/videos Video_Feed Video_Technology Luke_Smith
+https://videos.lukesmith.xyz/feeds/videos.atom?sort=-publishedAt Video_Feed Video_Technology Luke_Smith
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg Video_Feed Youtube_Channel Youtube_Technology Distrotube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA Video_Feed Youtube_Channel Youtube_Technology Brodie_Robertson
 # https://www.youtube.com/feeds/videos.xml?channel_id=UCfp-lNJy4QkIGnaEE6NtDSg Video_Feed Youtube_Channel Youtube_Technology TerminalForLife
@@ -64,13 +64,17 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA Vid
 https://www.youtube.com/feeds/videos.xml?channel_id=UCl2mFZoRqjw_ELax4Yisf6w Video_Feed Youtube_Channel Youtube_Technology Louis_Rossman
 https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ Video_Feed Youtube_Channel Youtube_Technology Chris_Titus_Tech
 https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw Video_Feed Youtube_Channel Youtube_Technology The_Linux_Experiment
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA Video_Feed Youtube_Channel Youtube_Technology Learn_Linux_TV
+https://www.youtube.com/feeds/videos.xml?channel_id=UCFFLP0dKesrKWccYscdAr9A Video_Feed Youtube_Channel Youtube_Technology the_urban_penguin
 https://www.youtube.com/feeds/videos.xml?channel_id=UCLx053rWZxCiYWsBETgdKrQ Video_Feed Youtube_Channel Youtube_Technology LGR
+https://www.youtube.com/feeds/videos.xml?channel_id=UCw_Sxdt27ASqErScT4Rlj8A Video_Feed Youtube_Channel Youtube_Technology LGR_Blerbs
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTjmLCEVb9r1OpFDJMMWyIw Video_Feed Youtube_Channel Youtube_Electronic StezStix_Fix?
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2-SP1bYi3ueKlVU7I75wFw Video_Feed Youtube_Channel Youtube_Electronic Noels_Retro_Lab
 https://www.youtube.com/feeds/videos.xml?channel_id=UCFX1Z9N6aPWuCN_KR8UZ2vg Video_Feed Youtube_Channel Youtube_Electronic Learn_Electronic_Repair
 https://www.youtube.com/feeds/videos.xml?channel_id=UCk0fGHsCEzGig-rSzkfCjMw Video_Feed Youtube_Channel Youtube_Electronic The_Engineering_Mindset
 https://www.youtube.com/feeds/videos.xml?channel_id=UC_0CVCfC_3iuHqmyClu59Uw Video_Feed Youtube_Channel Youtube_Technology ETA_PRIME
-https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg Video_Feed Youtube_Channel Youtube_Technology Jeff_Gerling
+https://www.youtube.com/feeds/videos.xml?channel_id=UCR-DXc1voovS8nhAvccRZhg Video_Feed Youtube_Channel Youtube_Technology Jeff_Geerling
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsd6hP-zzIkCpw8XGw7Osyw Video_Feed Youtube_Channel Youtube_Technology Geerling_Engineering
 https://www.youtube.com/feeds/videos.xml?channel_id=UCTiICpPNhXz5IKpYYMIwm8Q Video_Feed Youtube_Channel Youtube_Technology Bithead1000
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw Video_Feed Youtube_Channel Youtube_Technology ThePrimeagen
 https://www.youtube.com/feeds/videos.xml?channel_id=UCd3dNckv1Za2coSaHGHl5aA Video_Feed Youtube_Channel Youtube_Technology TJ_DeVries
@@ -89,6 +93,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ Vid
 https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology Programming mcoding
 https://www.youtube.com/feeds/videos.xml?channel_id=UCWv7vMbMWH4-V0ZXdmDpPBA Video_Feed Youtube_Channel Youtube_Tutorials Youtube_Technology Programming Programming_with_mosh
 https://www.youtube.com/feeds/videos.xml?channel_id=UC1t6kKXoBvjdr8m9KJ2Fx7A Video_Feed Youtube_Channel Youtube_Lectures Gresham_College
+https://www.youtube.com/feeds/videos.xml?channel_id=UCcabW7890RKJzL968QWEykA Video_Feed Youtube_Channel Youtube_Lectures CS50
 https://www.youtube.com/feeds/videos.xml?channel_id=UCiDJtJKMICpb9B1qf7qjEOA Video_Feed Youtube_Channel Youtube_Crafting Adam_Savages_Tested
 https://www.youtube.com/feeds/videos.xml?channel_id=UChiwLDIBJrV5SxqdixMHmQA Video_Feed Youtube_Channel Youtube_Carshow DRIVETRIBE
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAp990eMLzmei84WNR4ptgA Video_Feed Youtube_Channel Youtube_Podcast Bill_Burr
@@ -101,6 +106,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCs3iFCPtX0gzkKxCrobO4ig Vid
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2Bz8MkHXZgCdi6voGQ0v0Q Video_Feed Youtube_Channel Youtube_TrueCrime Beyond_Evil
 https://www.youtube.com/feeds/videos.xml?channel_id=UCVXKabRhXSQXh_U0au5JSzQ Video_Feed Youtube_Channel Youtube_TrueCrime EWU_Crime_Storytime
 https://www.youtube.com/feeds/videos.xml?channel_id=UCUHYDeruC9fR-MKaDYsQBlQ Video_Feed Youtube_Channel Youtube_TrueCrime Truly_Criminal
+https://www.youtube.com/feeds/videos.xml?channel_id=UCzwEJTQa7wl0AboBYbrKr1A Video_Feed Youtube_Channel Youtube_TrueCrime Merc_Docs
 https://www.youtube.com/feeds/videos.xml?channel_id=UC0M0rxSz3IF0CsSour1iWmw Video_Feed Youtube_Channel Youtube_Reviews Cinemassacre
 https://www.youtube.com/feeds/videos.xml?channel_id=UCM7Srv4mxJejt2NLmumkRRQ Video_Feed Youtube_Channel Youtube_Reviews Whatculture
 https://www.youtube.com/feeds/videos.xml?channel_id=UCaEOfvyMhGEc1LrYC_JbJbA Video_Feed Youtube_Channel Youtube_Reviews Whatculture_Comics
