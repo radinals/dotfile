@@ -2,7 +2,7 @@ local set = vim.opt
 local autocmd = vim.api.nvim_create_autocmd
 
 set.scrolloff = 999
-set.sidescroll = 999
+set.sidescroll = 10
 
 set.smartcase = true
 
@@ -18,6 +18,7 @@ set.shell = "/bin/bash"
 
 set.smartindent = true
 set.wrap = false
+set.mouse = ""
 
 set.conceallevel = 1
 
@@ -33,12 +34,19 @@ set.spell = false
 set.spelllang = { 'en_us' }
 
 -- netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 -- vim.g.netrw_preview = 1
 -- vim.g.netrw_alto = 0
-vim.g.netrw_winsize = 30
-vim.g.netrw_keepdir = 0
-vim.g.netrw_banner = 0
-vim.g.netrw_liststyle = 3
+-- vim.g.netrw_winsize = 30
+-- vim.g.netrw_keepdir = 0
+-- vim.g.netrw_banner = 0
+-- vim.g.netrw_liststyle = 3
+
+
+vim.cmd [[
+  "filetype plugin on"
+]]
 
 autocmd("BufEnter",
   { command = "setlocal formatoptions-=c formatoptions-=r formatoptions-=o" }
