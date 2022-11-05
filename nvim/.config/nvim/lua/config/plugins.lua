@@ -160,4 +160,9 @@ return packer.startup(function(use)
     event = "BufWinEnter"
   }
 
+  use {
+    "norcalli/nvim-colorizer.lua",
+    cmd = "ColorizerToggle"
+  }
+
 end)
