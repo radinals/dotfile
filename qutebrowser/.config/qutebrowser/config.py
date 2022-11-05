@@ -2,11 +2,11 @@
 import qutebrowser.api.interceptor as qt
 from os import getenv
 
-
 def redirect(r: qt.Request):
     links = {
-        "reddit.com": "teddit.net",
-        "twitter.com": "nitter.net"
+        "www.reddit.com": "www.teddit.net",
+        "www.twitter.com": "www.nitter.net",
+        "www.wikipedia.com": "www.wikiless.org"
     }
 
     if r.request_url.host() in links.keys():
@@ -15,7 +15,6 @@ def redirect(r: qt.Request):
             r.redirect(r.request_url)
         except:
             pass
-
 qt.register(redirect)
 
 # Change the argument to True to still load settings configured via autoconfig.yml
@@ -25,31 +24,39 @@ config.load_autoconfig(False)
 config.source("colors.py")
 config.source("searchEngines.py")
 
-# Keybindings
 # close tabs.
-config.bind("<Space>tc", "tab-close", mode="normal")
+config.bind("<Space>wc", "tab-close", mode="normal")
 
 # open hint in new tab
-config.bind("<Space>to", "hint all tab", mode="normal")
+config.bind("<Space>wo", "hint all tab", mode="normal")
 
 # open new tabs.
-config.bind("<Space>tn", "open -t", mode="normal")
+config.bind("<Space>wn", "open -t", mode="normal")
 
 # copy hinted links to clipboard
 config.bind("<Space>yl", "hint links yank", mode="normal")
 
 # open videos in mpv
-config.bind("<Space>oV",
-            "hint links spawn mpv --ytdl-format='bestvideot[height<=?720]+bestaudio/best' {hint-url}", mode="normal")
-config.bind("<Space>ov",
-            "hint links spawn mpv --ytdl-format='bestvideot[height<=?480]+bestaudio/best' {hint-url}", mode="normal")
+config.bind(
+    "<Space>oV",
+    "hint links spawn mpv --ytdl-format='bestvideot[height<=?720]+bestaudio/best' {hint-url}", 
+    mode="normal"
+)
 
-# UI
-font_size = 6
-c.fonts.default_size = str(font_size) + 'pt'  # default font size
-c.fonts.default_family = "Liberation Sans"  # default font family
+config.bind(
+    "<Space>ov",
+    "hint links spawn mpv --ytdl-format='bestvideot[height<=?480]+bestaudio/best' {hint-url}",
+    mode="normal"
+)
+
+font_size = 10
 # default font size
-c.fonts.hints = f'bold { str(font_size + 1 ) + "pt" } default_family'
+c.fonts.default_size = str(font_size) + 'pt'  
+# default font family
+c.fonts.default_family = "Liberation Sans"
+# default font size
+hint_font_size = str(font_size + 1)
+c.fonts.hints = f"bold {hint_font_size}pt default_family"
 
 c.downloads.remove_finished = 5  # remove completed downloads
 c.downloads.location.suggestion = "both"
@@ -67,7 +74,7 @@ c.url.default_page = "https:/duckduckgo.com/lite/"
 c.url.start_pages = "https:/duckduckgo.com/lite/"
 
 # set the default text editor
-c.editor.command = [getenv("TERMINAL"), "-e", getenv("EDITOR"), "{file}"]
+c.editor.command = ["st", "-e", "nvim", "{file}"]
 
 # enables loading images in sites.
 c.content.images = True
@@ -80,8 +87,8 @@ c.content.geolocation = False
 
 # set javascript behaviors
 c.content.javascript.enabled = False
-c.content.javascript.modal_dialog = True
-c.content.javascript.prompt = True
+c.content.javascript.modal_dialog = False
+c.content.javascript.prompt = False
 
 # - all: Accept all cookies.
 # - no-3rdparty: Accept cookies from the same origin only. This is known to break some sites, such as GMail.
@@ -105,12 +112,22 @@ c.content.headers.user_agent = (
     'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36'
 )
 
-config.set('content.javascript.enabled', True, '*://duckduckgo.com/')
 config.set('content.cookies.accept', 'all', 'chrome-devtools://*')
 config.set('content.cookies.accept', 'all', 'devtools://*')
 
-config.set("content.javascript.enabled", True, "*://github.com/*")
-config.set("content.cookies.accept", "no-3rdparty", "*://github.com/*")
 
-config.set('content.javascript.enabled', True, '*://wallhaven.cc/*')
-config.set('content.cookies.accept', 'no-3rdparty', '*://wallhaven.cc/*')
+try:
+    javascript_whitelist = [ 
+        "*://duckduckgo.com/*",
+        '*://localhost:*',
+        "*://wallhaven.cc/*",
+        "*://gitlab.com/*",
+        "*://github.com/*",
+        "*://odysee.com/*",
+    ]
+
+    for whitelist_link in javascript_whitelist:
+        config.set("content.javascript.enabled", True, whitelist_link)
+        config.set("content.cookies.accept", "no-3rdparty", whitelist_link)
+except:
+    pass
