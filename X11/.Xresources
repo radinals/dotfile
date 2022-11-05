@@ -1,14 +1,10 @@
-Xft.dpi: 142
-Xft.autohint: false
-Xft.antialias: true
-Xcursor.size: 16
 
-*.font: Literation Mono Nerd Font:pixelsize=12
-dmenu.font: Literation Mono Nerd Font:pixelsize=10
-/* st.font: JetBrains Mono:pixelsize=12 */
+/* ~/Xresources */
 
+/*#######################################################*/
 *.foreground: #eeeeee
-*.background: #041517
+! *.background: #041517
+*.background: #101010
 *.cursorColor: #ff6a6a
 
 ! black
@@ -43,23 +39,34 @@ dmenu.font: Literation Mono Nerd Font:pixelsize=10
 *.color7: #93a1a1
 *.color15: #fdf6e3
 
+/*#######################################################*/
+
+! Xft.dpi: 142
+! Xft.autohint: false
+! Xft.antialias: true
+Xcursor.size: 16
+*.font: Literation Mono Nerd Font:pixelsize=12:autohint=false:antialias=true
+
+/*#######################################################*/
+
+! string
 *.normfgcolor: #eeeeee
-*.normbgcolor: #0D1A1B
+*.normbgcolor: #101010
+*.selfgcolor: #268bd2
+*.selbgcolor: #202020
 
-*.selfgcolor: #000000
-*.selbgcolor: #93a1a1
-
-dwm.selspcbordercolor: #27618d
-dwm.normbordercolor: #454535
-
-dwm.selbordercolor: #a90200
+/*#######################################################*/
+! string
+dwm.normbordercolor: #303030
+dwm.selbordercolor: #268bd2
+dwm.selspcbordercolor: #b58900
 dwm.normspcbordercolor: #050505
 
 ! Float
 dwm.mfact: 0.50
 
-! Interger
-dwm.borderpx:2
+! Integer
+dwm.borderpx:1
 dwm.snap: 10 
 dwm.showbar: 1
 dwm.topbar: 1
@@ -74,21 +81,25 @@ dwm.systrayonleft: 0
 dwm.systraypinningfailfirst: 1
 dwm.showtitle: 1
 
-/* st.font: Literation Mono:style=Regular:pixelsize=10 */
-
+/*#######################################################*/
 ! string
-/* st.termname: st-256color */
-/* st.shell: "/bin/sh" */
+! st.font: Literation Mono:style=Regular:pixelsize=10
+! st.termname: st-256color
+! st.shell: "/bin/sh"
 
 ! float
-/* st.cwscale: 1.1 */
-/* st.chscale: 1.0 */
-st.alpha: 0.95
+! st.cwscale: 1.1
+! st.chscale: 1.0
+st.alpha: 0.98
 
 ! integer
-/* st.minlatency: 8 */
-/* st.maxlatency: 33 */
-/* st.blinktimeout: 800 */
-/* st.bellvolume: 0 */
-/* st.tabspaces: 8 */
-/* st.borderpx: 0 */
+! st.minlatency: 8
+! st.maxlatency: 33
+! st.blinktimeout: 800
+! st.bellvolume: 0
+! st.tabspaces: 8
+! st.borderpx: 0
+
+/*#######################################################*/
+! string
+dmenu.font: Literation Mono Nerd Font:pixelsize=10:autohint=false:antialias=true
