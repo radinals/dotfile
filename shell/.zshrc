@@ -10,22 +10,25 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Aliases
-source "$HOME/.alias"
-
 # setopt PROMPT_SUBST
-PROMPT=' %F{#528b8b}%n@%m: %B%|%F{#aa4450}% %~ %F{#719611}%F{#ff9800}>%b%f '
+PROMPT=' %F{#268bd2}%n@%m: %B%|%F{#dc322f}% %~ %F{#719611}%F{#b58900}>%b%f '
 
 # Completion Menu
 zmodload zsh/complist
 zstyle ':completion:*' menu select
 
 # Auto Completiion
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
-autoload -Uz compinit; compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION; _comp_options+=(globdots);
+zstyle ':completion:*' \
+    matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+autoload -Uz compinit; \
+    compinit -d "$HOME/.cache/zsh/zcompdump-$ZSH_VERSION"; \
+    _comp_options+=(globdots);
 
 # vi mode
 bindkey -v
+
+# disable CTRL+s and CTRL+q
+stty stop ''; stty start '';
 
 # show command completion time.
 # export KEYTIMEOUT=1
@@ -51,15 +54,15 @@ bindkey "^?" backward-delete-char
 
 # Change cursor shape for different vi modes.
 function zle-keymap-select {
-  if [[ ${KEYMAP} == vicmd ]] ||
-     [[ $1 = 'block' ]]; then
-    echo -ne '\e[1 q'
-  elif [[ ${KEYMAP} == main ]] ||
-       [[ ${KEYMAP} == viins ]] ||
-       [[ ${KEYMAP} = '' ]] ||
-       [[ $1 = 'beam' ]]; then
-    echo -ne '\e[5 q'
-  fi
+    if [[ ${KEYMAP} == vicmd ]] ||
+        [[ $1 = 'block' ]]; then
+        echo -ne '\e[1 q'
+    elif [[ ${KEYMAP} == main ]] || 
+        [[ ${KEYMAP} == viins ]] ||
+        [[ ${KEYMAP} = '' ]] ||
+        [[ $1 = 'beam' ]]; then
+        echo -ne '\e[5 q'
+    fi
 }
 
 zle -N zle-keymap-select
@@ -68,37 +71,39 @@ zle -N zle-keymap-select
 autoload -U select-quotet
 zle -N select-quoted
 for m in visual viopp; do
-  for c in {a,i}{\',\",\`}; do
-    bindkey -M $m "$c" select-quoted
-  done
+    for c in {a,i}{\',\",\`}; do
+        bindkey -M $m "$c" select-quoted
+    done
 done
 
 # ci{, ci(, ci<, di{, etc
 autoload -U select-bracketed
 zle -N select-bracketed
 for m in visual viopp; do
-  for c in {a,i}${(s..)^:-'()[]{}<>bB'}; do
-    bindkey -M $m "$c" select-bracketed
-  done
+    for c in {a,i}${(s..)^:-'()[]{}<>bB'}; do
+        bindkey -M $m "$c" select-bracketed
+    done
 done
 
 zle-line-init() {
-    zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
+    # initiate `vi insert` as keymap 
+    # (can be removed if `bindkey -V` has been set elsewhere)
+    zle -K viins 
     echo -ne "\e[5 q"
 }
 
 zle -N zle-line-init
-echo -ne '\e[5 q' # Use beam shape cursor on startup.
-precmd() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+# Use beam shape cursor on startup.
+echo -ne '\e[5 q' 
+# Use beam shape cursor for each new prompt.
+precmd() { echo -ne '\e[5 q' ;} 
 
 # Command History
-HISTSIZE=1000
-SAVEHIST=1000
-HISTFILE=~/.cache/zsh/zsh_history
-
+HISTFILE="$HOME/.cache/zsh/zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
 # Add commands to history as they are entered, don't wait for shell to exit
 setopt INC_APPEND_HISTORY
-
 # Do not keep duplicate commands in history
 setopt HIST_IGNORE_ALL_DUPS
 
@@ -120,7 +125,7 @@ extract(){
             *.tar)       tar xvf "$1"      ;;
             *.tbz2)      tar xvjf "$1"     ;;
             *.tgz)       tar xvzf "$1"     ;;
-	    *.zip)       unzip "$1" -d "$(echo "$1" | sed -e 's/.zip//g')" ;;
+            *.zip)       unzip "$1" -d "$(echo "$1" | sed -e 's/.zip//g')" ;;
             *.Z)         uncompress "$1"   ;;
             *.7z)        p7zip -d "$1"     ;;
             *)           echo "'$1' cannot be extracted via >extract<" ;;
@@ -141,3 +146,9 @@ makezip(){
 makechd(){
     chdman createcd "$1" -o "${1%%.cue}.chd"
 }
+
+# Aliases
+source "$HOME/.alias"
+
+# zsh-autosuggestions
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
