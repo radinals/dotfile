@@ -2,4 +2,6 @@
 # ~/.zprofile
 #
 
-[ "$(tty)" = "/dev/tty1" ] && pgrep dwm || startx "$HOME/.xinitrc"
+if [[ "$(tty)" = "/dev/tty1" ]]; then
+	pgrep dwm || startx "$HOME/.xinitrc"
+fi
