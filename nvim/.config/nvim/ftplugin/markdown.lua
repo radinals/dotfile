@@ -1,5 +1,9 @@
-local set_local = vim.opt_local
-set_local.wrap = true
--- set_local.linebreak = true
--- set_local.nofoldenable = true
-set_local.spell = true
+local setlocal = vim.opt_local
+setlocal.wrap = true
+-- setlocal.linebreak = true
+-- setlocal.nofoldenable = true
+setlocal.spell = true
+setlocal.showbreak = "+++"
+setlocal.colorcolumn = "80"
+vim.g.markdown_folding = 1
+setlocal.foldenable = false
