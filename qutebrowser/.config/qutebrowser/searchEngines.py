@@ -1,6 +1,7 @@
 c.url.searchengines = {
         "DEFAULT": "https://lite.duckduckgo.com/lite/?q={}",
         "dk" : "https://duckduckgo.com/?q={}",
+        "go" : "https://www.google.com/search?q={}&gbv=1&sei=p_2kY4jlI6G9z7sPocua2AI",
         "dkimg" : "https://duckduckgo.com/?q={}&kp=-2&iar=images&iax=images&ia=images",
         "dkl": "https://lite.duckduckgo.com/lite/?q={}",
         "sx" : "https://search.disroot.org/search?q={}",

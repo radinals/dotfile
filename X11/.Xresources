@@ -46,21 +46,34 @@
 ! Xft.antialias: true
 Xcursor.size: 16
 *.font: Literation Mono Nerd Font:pixelsize=12:autohint=false:antialias=true
+dmenu.font: LiterationSans Nerd Font Book:pixelsize=10:autohint=true:antialias=true
+dwm.font: LiterationSans Nerd Font Book:pixelsize=10:autohint=true:antialias=true
 
 /*#######################################################*/
 
 ! string
-*.normfgcolor: #eeeeee
-*.normbgcolor: #101010
-*.selfgcolor: #268bd2
-*.selbgcolor: #202020
+*.normfg: #eeeeee
+*.normbg: #101010
+*.selfg: #268bd2
+*.selbg: #202020
+
+dwm.normbg: #151515
+dwm.selbg: #202020
+dwm.gaps: 4
+
+dmenu.normfg: #eeeeee
+dmenu.normbg: #202020
+dmenu.selfg: #000000
+dmenu.selbg: #268bd2
 
 /*#######################################################*/
 ! string
-dwm.normbordercolor: #303030
-dwm.selbordercolor: #268bd2
-dwm.selspcbordercolor: #b58900
-dwm.normspcbordercolor: #050505
+dwm.normborder: #303030
+dwm.selborder: #268bd2
+dwm.normstickyborder: #050505
+dwm.selstickyborder: #dc322f
+dwm.normloatborder: #050505
+dwm.selfloatborder: #b58900
 
 ! Float
 dwm.mfact: 0.50
@@ -90,7 +103,7 @@ dwm.showtitle: 1
 ! float
 ! st.cwscale: 1.1
 ! st.chscale: 1.0
-st.alpha: 0.98
+st.alpha: 0.90
 
 ! integer
 ! st.minlatency: 8
@@ -99,7 +112,3 @@ st.alpha: 0.98
 ! st.bellvolume: 0
 ! st.tabspaces: 8
 ! st.borderpx: 0
-
-/*#######################################################*/
-! string
-dmenu.font: Literation Mono Nerd Font:pixelsize=10:autohint=false:antialias=true

@@ -1,8 +1,11 @@
-#!/bin/env bash
-
+#!/bin/sh
 "$HOME"/.screenlayout/display.sh
 xset r rate 300 80 &
-hsetroot -root -fill "$HOME/Pictures/Wallpapers/wp-3.jpg" &
-xrdb -merge "$HOME/.Xresources" 
+xinput float 15 &
+RandoWall &
+# hsetroot -root -fill "$HOME/Pictures/Wallpapers/wp-23.png" &
+xrdb -merge "$HOME/.Xresources"
+[ ! "$(pgrep picom)" ] && picom &
+[ ! "$(pgrep dunst)" ] && dunst &
 [ ! "$(pgrep dwmblocks)" ] && dwmblocks &
 [ ! "$(pgrep dwm)" ] && exec /usr/local/bin/dwm

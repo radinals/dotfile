@@ -36,7 +36,9 @@ bind-key c toggle-show-read-feeds
 ## Macros
 # open video in mpv
 macro V set browser "mpv --ytdl-format='bestvideo[height<=?720][fps<=?60]+bestaudio/best' %u" ; open-in-browser ; set browser "elinks %u"
-macro v set browser "mpv --ytdl-format='bestvideo[height<=?480][fps<=?30]+bestaudio/best' %u" ; open-in-browser ; set browser "elinks %u"
+# macro v set browser "mpv --ytdl-format='bestvideo[height<=?480][fps<=?30]+bestaudio/best' %u" ; open-in-browser ; set browser "elinks %u"
+macro v set browser "mpv --ytdl-format='bestvideo[height<=?240][fps<=?30]+worstaudio' %u" ; open-in-browser ; set browser "elinks %u"
+# macro v set browser "mpv --ytdl-format='worstvideo+worstaudio' %u" ; open-in-browser ; set browser "elinks %u"
 
 # open audio only
 macro A set browser "mpv --ytdl-format='bestaudio' %u --no-video" ; open-in-browser ; set browser "elinks %u"
@@ -65,12 +67,4 @@ highlight article "\\[image\\ [0-9]+\\]" blue default
 
 # ignore-mode "download"
 ignore-mode "display"
-ignore-article "*" "title =~ \".*Brigadir J.*\""
-ignore-article "*" "title =~ \".*Bharada E.*\""
-ignore-article "*" "title =~ \".*Ferdy Sambo.*\""
-ignore-article "*" "content =~ \".*Ferdy Sambo.*\""
-
-ignore-article "https://www.tribunnews.com/rss" "title=~ \"Chord.*\""
-ignore-article "https://www.tribunnews.com/rss" "title=~ \"Lirik Lagu.*\""
-ignore-article "https://www.tribunnews.com/rss" "title=~ \"Kunci Jawaban.*\""
-ignore-article "https://moxie.foxnews.com/feedburner/latest.xml" "title=~ \".*lottery.*\""
+# ignore-article "link" "pattern"

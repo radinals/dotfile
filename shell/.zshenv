@@ -13,7 +13,7 @@ export VISUAL="/usr/bin/nvim"
 export EDITOR="/usr/bin/nvim"
 export TERMINAL="/usr/local/bin/st"
 export BROWSER="/usr/bin/qutebrowser"
-export READER="/usr/bin/mupdf"
+export READER="/usr/bin/zathura"
 export IMAGE="/usr/bin/sxiv"
 export VIDEO="/usr/bin/mpv"
 
