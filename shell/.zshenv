@@ -5,7 +5,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 # Paths
-export PATH="$PATH:/sbin:$HOME/.local/bin:$HOME/.local/bin/scripts"
+export PATH="$PATH:/bin$PATH:/sbin:$HOME/.local/bin:$HOME/.local/bin/scripts"
 # source $HOME/.local/share/cargo/env
 
 # Define default programs
@@ -71,3 +71,6 @@ export LESSHISTFILE=-
 
 # SDL Controllers
 export SDL_GAMECONTROLLERCONFIG="03000000790000000600000010010000,Microntek USB Joystick,a:b2,b:b1,x:b3,y:b0,back:b8,start:b9,leftstick:b10,rightstick:b11,leftshoulder:b4,rightshoulder:b5,dpup:h0.1,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,leftx:a0,lefty:a1,rightx:a2,righty:a3,lefttrigger:b6,righttrigger:b7,platform:Linux,"
+
+# fzf theme
+export FZFTHEME="--no-scrollbar --border=rounded --header-first --layout=reverse --info=right --color=16,prompt:red,query:cyan,hl+:black,hl:green,header:green,fg+:black,fg:white,bg+:green,gutter:-1,info:green,bg:-1,separator:-1,pointer:green,border:green,separator:green"

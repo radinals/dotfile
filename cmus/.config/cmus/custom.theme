@@ -1,8 +1,8 @@
 #
 # Change this to a red or gray theme by doing the following in vim:
 #
-#  :%s/lightblue/light<color>/g
-#  :%s/blue/<color>/g
+#  :%s/lightgreen/light<color>/g
+#  :%s/green/<color>/g
 #
 
 # Directory colors
@@ -25,37 +25,37 @@ set color_error=lightred
 set color_info=yellow
 
 # Color of currently playing track.
-set color_win_cur=blue
+set color_win_cur=green
 
 # Color of the separator line between windows in view (1).
-set color_separator=blue
+set color_separator=green
 
 # Color of window titles (topmost line of the screen).
-set color_win_title_bg=blue
+set color_win_title_bg=green
 set color_win_title_fg=black
 
 # Status line color.
-set color_statusline_bg=blue
+set color_statusline_bg=green
 set color_statusline_fg=black
 
 # Color of the line displaying currently playing track.
 set color_titleline_bg=default
-set color_titleline_fg=blue
+set color_titleline_fg=green
 
 # Color of the selected row which is also the currently playing track in active window.
-set color_win_cur_sel_bg=blue
-set color_win_cur_sel_fg=white
+set color_win_cur_sel_bg=green
+set color_win_cur_sel_fg=black
 
 # Color of the selected row which is also the currently playing track in inactive window.
 set color_win_inactive_cur_sel_bg=default
-set color_win_inactive_cur_sel_fg=blue
+set color_win_inactive_cur_sel_fg=green
 
 # Color of selected row in inactive window.
 set color_win_inactive_sel_bg=default
-set color_win_inactive_sel_fg=blue
+set color_win_inactive_sel_fg=green
 
 # Color of selected row in active window.
-set color_win_sel_bg=blue
+set color_win_sel_bg=green
 set color_win_sel_fg=black
 
 # Command line color.

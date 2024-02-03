@@ -11,3 +11,4 @@ alias top="htop"
 alias rm="rm -i"
 alias cp="cp -i"
 alias elinks='elinks -no-connect'
+alias vim="nvim"

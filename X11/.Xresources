@@ -1,98 +1,176 @@
-
 /* ~/Xresources */
 
 /*#######################################################*/
-*.foreground: #eeeeee
+*.foreground: #ffffff
 ! *.background: #041517
-*.background: #101010
-*.cursorColor: #ff6a6a
+! *.background: #101010
+! *.background:   #111111
+! *.background:   #101010
+! *.background: #090C10
+*.cursorColor: #ffffff
 
-! black
-*.color0: #000000
-*.color8: #657b83
+! ! black
+! *.color0: #000000
+! *.color8: #657b83
+!
+! ! red
+! *.color1: #dc322f
+! *.color9: #dc322f
+!
+! ! green
+! *.color2: #859900
+! *.color10: #859900
+!
+! ! yellow
+! *.color3: #b58900
+! *.color11: #b58900
+!
+! ! blue
+! *.color4: #268bd2
+! *.color12: #268bd2
+!
+! ! magenta
+! *.color5: #6c71c4
+! *.color13: #6c71c4
+!
+! ! cyan
+! *.color6: #2aa198
+! *.color14: #2aa198
+!
+! ! white
+! *.color7: #93a1a1
+! *.color15: #fdf6e3
 
-! red
-*.color1: #dc322f
-*.color9: #dc322f
+! ! special
+! *.foreground:   #f1ebeb
+! *.background:   #272822
+! *.cursorColor:  #f1ebeb
 
-! green
-*.color2: #859900
-*.color10: #859900
+! ! black
+! *.color0:       #d3d3d3
+! *.color8:       #b3b3b3
+!
+! ! red
+! *.color1:       #ef6b7b
+! *.color9:       #ed5466
+!
+! ! green
+! *.color2:       #a1d569
+! *.color10:      #afdb80
+!
+! ! yellow
+! *.color3:       #f59335
+! *.color11:      #f59335
+!
+! ! blue
+! *.color4:       #4ec2e8
+! *.color12:      #5dc7ea
+!
+! ! magenta
+! *.color5:       #fec7cd
+! *.color13:      #d2a4b4
+!
+! ! cyan
+! *.color6:       #95c1c0
+! *.color14:      #75a1a0
+!
+! ! white
+! *.color7:       #707070
+! *.color15:      #909090
 
-! yellow
-*.color3: #b58900
-*.color11: #b58900
-
-! blue
-*.color4: #268bd2
-*.color12: #268bd2
-
-! magenta
-*.color5: #6c71c4
-*.color13: #6c71c4
-
-! cyan
-*.color6: #2aa198
-*.color14: #2aa198
-
-! white
-*.color7: #93a1a1
-*.color15: #fdf6e3
+! Dracula Xresources palette
+! *.foreground: #F8F8F2
+! *.background: #282036
+*.background: #192617
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
 
 /*#######################################################*/
 
 ! Xft.dpi: 142
 ! Xft.autohint: false
 ! Xft.antialias: true
-Xcursor.size: 16
-*.font: Literation Mono Nerd Font:pixelsize=12:autohint=false:antialias=true
-dmenu.font: LiterationSans Nerd Font Book:pixelsize=10:autohint=true:antialias=true
-dwm.font: LiterationSans Nerd Font Book:pixelsize=10:autohint=true:antialias=true
+Xcursor.size: 12
+*.font: LiterationMono Nerd Font:size=10:autohint=true:antialias=true:style=Regular
+st.font: JetBrainsMono Nerd Font:size=10:autohint=true:antialias=true:style=Regular
+dmenu.font: LiterationSans Nerd Font:size=10:autohint=true:antialias=true:style=Italic, Bold
+dwm.font: LiterationSans Nerd Font:size=10:autohint=true:antialias:style=Bold
 
 /*#######################################################*/
 
 ! string
-*.normfg: #eeeeee
+*.normfg: #ffffff
 *.normbg: #101010
-*.selfg: #268bd2
+*.selfg: #43e954
 *.selbg: #202020
 
-dwm.normbg: #151515
-dwm.selbg: #202020
-dwm.gaps: 4
+dwm.statusbg: #282036
+! dwm.normbg: #101010
+! dwm.selbg: #202020
+! dwm.selbg: #282036
+! dwm.normbg: #282036
+dwm.selbg: #192617
+dwm.normbg: #192617
+dwm.gaps: 2
 
 dmenu.normfg: #eeeeee
-dmenu.normbg: #202020
+! dmenu.normbg: #282036
+dmenu.normbg: #192617
 dmenu.selfg: #000000
-dmenu.selbg: #268bd2
+dmenu.selbg: #43e954
 
 /*#######################################################*/
 ! string
-dwm.normborder: #303030
-dwm.selborder: #268bd2
+dwm.normborder: #777777
+dwm.selborder: #43e954
 dwm.normstickyborder: #050505
 dwm.selstickyborder: #dc322f
 dwm.normloatborder: #050505
 dwm.selfloatborder: #b58900
 
+dwm.statusfg_1: #43e954
+dwm.statusfg_2: #43e944
+dwm.statusfg_3: #43e944
+dwm.statusfg_4: #43e954
+dwm.statusfg_5: #43e954
+
 ! Float
 dwm.mfact: 0.50
 
 ! Integer
-dwm.borderpx:1
-dwm.snap: 10 
+dwm.borderpx: 3
+dwm.snap: 10
+dwm.systrayspacing: 2
+
+! Boolean
 dwm.showbar: 1
 dwm.topbar: 1
 dwm.nmaster: 1
 dwm.resizehints: 0
-dwm.showsystray: 0
+dwm.showsystray: 1
 dwm.lockfullscreen: 1
 dwm.focusonwheel: 0
 dwm.systraypinning: 0
-dwm.systrayspacing: 2
 dwm.systrayonleft: 0
 dwm.systraypinningfailfirst: 1
 dwm.showtitle: 1
+dwm.block_inversed : 1
+dwm.status_color_inversed : 0
+! dwm.block_delimiter : |
 
 /*#######################################################*/
 ! string
@@ -101,9 +179,25 @@ dwm.showtitle: 1
 ! st.shell: "/bin/sh"
 
 ! float
-! st.cwscale: 1.1
-! st.chscale: 1.0
+! st.cwscale: 1.01
+! st.chscale: 1.00
 st.alpha: 0.90
+
+/*
+ * 0: blinking block
+ * 1: blinking block (default)
+ * 2: steady block ("█")
+ * 3: blinking underline
+ * 4: steady underline ("_")
+ * 5: blinking bar
+ * 6: steady bar ("|")
+ * 7: blinking st cursor
+ * 8: steady st cursor
+ */
+
+st.cursorStyle : 2
+st.cursorThickness : 4
+st.brightBold : 0
 
 ! integer
 ! st.minlatency: 8
@@ -111,4 +205,39 @@ st.alpha: 0.90
 ! st.blinktimeout: 800
 ! st.bellvolume: 0
 ! st.tabspaces: 8
-! st.borderpx: 0
+st.borderpx: 2
+
+xscreensaver.splash: false
+
+!font settings
+! xscreensaver.Dialog.headingFont:        -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+! xscreensaver.Dialog.bodyFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+! xscreensaver.Dialog.labelFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+! xscreensaver.Dialog.unameFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+! xscreensaver.Dialog.buttonFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+! xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+! xscreensaver.passwd.passwdFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+!
+
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:       #43e954
+xscreensaver.Dialog.background:         #192617
+xscreensaver.Dialog.topShadowColor:     #192617
+xscreensaver.Dialog.bottomShadowColor:  #192617
+xscreensaver.Dialog.Button.foreground:  #43e954
+xscreensaver.Dialog.Button.background:  #192617
+
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #43e954
+xscreensaver.Dialog.text.background:    #192617
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.shadowThickness:    2
+
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #ff0000
+xscreensaver.passwd.thermometer.background:  #000000
+xscreensaver.passwd.thermometer.width:       8
+
+!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:    %I:%M%P %b %d

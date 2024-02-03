@@ -11,7 +11,12 @@
 [[ $- != *i* ]] && return
 
 # setopt PROMPT_SUBST
-PROMPT=' %F{#268bd2}%n@%m: %B%|%F{#dc322f}% %~ %F{#719611}%F{#b58900}>%b%f '
+# PROMPT=' %B% %F{red}% %n %1~ %F{magenta}>%b%f '
+PROMPT=' %F{green}%n@%m: %B%|%F{blue}% %1~ %F{magenta}>%b%f '
+# PROMPT=' %B% %F{red}% %n@%m %F{magenta}>%b%f '
+# PROMPT=' %F{cyan}%n@%m: %B%|%F{red}% %~ %F{green}%F{yellow}>%b%f '
+# PROMPT=' %F{#268bd2}%n@%m: %B%|%F{#dc322f}% %~ %F{#719611}%F{#b58900}>%b%f '
+# PROMPT=' %B%|%F{#dc322f}% ->%b%f '
 
 # Completion Menu
 zmodload zsh/complist
@@ -57,7 +62,7 @@ function zle-keymap-select {
     if [[ ${KEYMAP} == vicmd ]] ||
         [[ $1 = 'block' ]]; then
         echo -ne '\e[1 q'
-    elif [[ ${KEYMAP} == main ]] || 
+    elif [[ ${KEYMAP} == main ]] ||
         [[ ${KEYMAP} == viins ]] ||
         [[ ${KEYMAP} = '' ]] ||
         [[ $1 = 'beam' ]]; then
@@ -86,17 +91,17 @@ for m in visual viopp; do
 done
 
 zle-line-init() {
-    # initiate `vi insert` as keymap 
+    # initiate `vi insert` as keymap
     # (can be removed if `bindkey -V` has been set elsewhere)
-    zle -K viins 
+    zle -K viins
     echo -ne "\e[5 q"
 }
 
 zle -N zle-line-init
 # Use beam shape cursor on startup.
-echo -ne '\e[5 q' 
+echo -ne '\e[5 q'
 # Use beam shape cursor for each new prompt.
-precmd() { echo -ne '\e[5 q' ;} 
+precmd() { echo -ne '\e[5 q' ;}
 
 # Command History
 HISTFILE="$HOME/.cache/zsh/zsh_history"

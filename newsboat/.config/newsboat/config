@@ -9,7 +9,7 @@ show-keymap-hint no
 download-retries 5
 download-path "$HOME/Downloads"
 player "mpv %u"
-browser "elinks %u" 
+browser "w3m %u"
 itemview-title-format "'%T' (%u/%t)"
 articlelist-title-format "'%T' (%u/%t)"
 feedlist-title-format "Feeds (%u/%t)"
@@ -35,16 +35,16 @@ bind-key c toggle-show-read-feeds
 
 ## Macros
 # open video in mpv
-macro V set browser "mpv --ytdl-format='bestvideo[height<=?720][fps<=?60]+bestaudio/best' %u" ; open-in-browser ; set browser "elinks %u"
-# macro v set browser "mpv --ytdl-format='bestvideo[height<=?480][fps<=?30]+bestaudio/best' %u" ; open-in-browser ; set browser "elinks %u"
-macro v set browser "mpv --ytdl-format='bestvideo[height<=?240][fps<=?30]+worstaudio' %u" ; open-in-browser ; set browser "elinks %u"
-# macro v set browser "mpv --ytdl-format='worstvideo+worstaudio' %u" ; open-in-browser ; set browser "elinks %u"
+macro V set browser "mpv --ytdl-format='bestvideo[height<=?720][fps<=?60]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
+# macro v set browser "mpv --ytdl-format='bestvideo[height<=?480][fps<=?30]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
+macro v set browser "mpv --ytdl-format='bestvideo[height<=?240][fps<=?30]+worstaudio' %u" ; open-in-browser ; set browser "w3m %u"
+# macro v set browser "mpv --ytdl-format='worstvideo+worstaudio' %u" ; open-in-browser ; set browser "w3m %u"
 
 # open audio only
-macro A set browser "mpv --ytdl-format='bestaudio' %u --no-video" ; open-in-browser ; set browser "elinks %u"
-macro a set browser "mpv --ytdl-format='worstaudio ' --user-agent='Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36' %u --no-video" ; open-in-browser ; set browser "elinks %u"
+macro A set browser "mpv --ytdl-format='bestaudio' %u --no-video" ; open-in-browser ; set browser "w3m %u"
+macro a set browser "mpv --ytdl-format='worstaudio ' --user-agent='Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36' %u --no-video" ; open-in-browser ; set browser "w3m %u"
 
-macro O set browser "$BROWSER %u"; open-in-browser; set browser "elinks %u"
+macro O set browser "$BROWSER %u"; open-in-browser; set browser "w3m %u"
 
 ### Colors and Highlights    fg        bg #
 color background           default   default
