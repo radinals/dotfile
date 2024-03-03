@@ -12,7 +12,7 @@
 
 # setopt PROMPT_SUBST
 # PROMPT=' %B% %F{red}% %n %1~ %F{magenta}>%b%f '
-PROMPT=' %F{green}%n@%m: %B%|%F{blue}% %1~ %F{magenta}>%b%f '
+PROMPT=' %F{cyan}%n@%m: %B%|%F{green}% %1~ %F{white}>%b%f '
 # PROMPT=' %B% %F{red}% %n@%m %F{magenta}>%b%f '
 # PROMPT=' %F{cyan}%n@%m: %B%|%F{red}% %~ %F{green}%F{yellow}>%b%f '
 # PROMPT=' %F{#268bd2}%n@%m: %B%|%F{#dc322f}% %~ %F{#719611}%F{#b58900}>%b%f '
@@ -132,7 +132,7 @@ extract(){
             *.tgz)       tar xvzf "$1"     ;;
             *.zip)       unzip "$1" -d "$(echo "$1" | sed -e 's/.zip//g')" ;;
             *.Z)         uncompress "$1"   ;;
-            *.7z)        p7zip -d "$1"     ;;
+            *.7z)        7z x "$1"     ;;
             *)           echo "'$1' cannot be extracted via >extract<" ;;
         esac
     else
