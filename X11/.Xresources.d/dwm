@@ -1,0 +1,88 @@
+/*#######################################################*/
+
+! string
+*.normfg: NormFg
+*.normbg: NormBg
+*.selfg: SelFg
+*.selbg: SelBg
+dwm.statusbg: NormBg
+
+/*#######################################################*/
+! string
+dwm.wmname: LG3D
+dwm.normborder: NormBg
+dwm.selborder: Accent3
+dwm.normstickyborder: NormFg
+dwm.selstickyborder: Accent1
+dwm.normloatborder: NormFg
+dwm.selfloatborder: Accent2
+
+dwm.statusfg_1: Accent0
+dwm.statusfg_2: Accent0
+dwm.statusfg_3: Accent0
+dwm.statusfg_4: Accent0
+dwm.statusfg_5: Accent0
+
+! Float
+dwm.mfact: 0.50
+
+! Integer
+dwm.gaps: 2
+dwm.borderpx: 3
+dwm.snap: 10
+dwm.systrayspacing: 2
+
+! Boolean
+dwm.showbar: 1
+dwm.topbar: 1
+dwm.nmaster: 1
+dwm.resizehints: 0
+dwm.showsystray: 1
+dwm.lockfullscreen: 1
+dwm.focusonwheel: 0
+dwm.systraypinning: 0
+dwm.systrayonleft: 0
+dwm.systraypinningfailfirst: 1
+dwm.showtitle: 1
+dwm.block_inversed : 1
+dwm.status_color_inversed : 0
+! dwm.block_delimiter : |
+
+/*#######################################################*/
+! string
+! st.termname: st-256color
+! st.shell: "/bin/sh"
+
+! float
+! st.cwscale: 1.01
+! st.chscale: 1.00
+st.alpha: 0.89
+
+/*
+ * 0: blinking block
+ * 1: blinking block (default)
+ * 2: steady block ("█")
+ * 3: blinking underline
+ * 4: steady underline ("_")
+ * 5: blinking bar
+ * 6: steady bar ("|")
+ * 7: blinking st cursor
+ * 8: steady st cursor
+ */
+
+st.cursorStyle : 2
+st.cursorThickness : 4
+st.brightBold : 0
+
+! integer
+! st.minlatency: 8
+! st.maxlatency: 33
+! st.blinktimeout: 800
+! st.bellvolume: 0
+! st.tabspaces: 8
+st.borderpx: 2
+
+xmouseless.ExtraSlowSpeed: 100
+xmouseless.SlowSpeed: 250
+xmouseless.FastSpeed: 750
+xmouseless.NormalSpeed: 600

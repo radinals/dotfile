@@ -1,31 +1,34 @@
 #!/bin/sh
 
-"$HOME"/.screenlayout/layout1.sh
+"$HOME"/.screenlayout/layout_hd.sh
+"$HOME"/.screenayout/layout1.sh
 
-# wal --saturate 0.5 -i "$HOME/Pictures/Wallpapers/" &
-# RandoWall &
-hsetroot -fill $HOME/Pictures/Wallpapers/wallhaven-2yjp6x_1920x1080_.png
+RandoWall "$HOME/Pictures/Wallpapers" &
 
 xset r rate 280 80 &
+xset +dpms &
+xset +dpms &
+xset b off &
 
 # touchpad and trackpoint settings
-xinput --set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
-xinput set-button-map "TPPS/2 IBM TrackPoint" 1 0 3
-xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Speed" 0.000001
-xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Profile Enabled" 0, 0, 1
-xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Natural Scrolling Enabled" 1
-xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Custom Scroll Step" 0.000001
-xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Custom Motion Step" 0.000001
+xinput --set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1 &
+xinput set-button-map "TPPS/2 IBM TrackPoint" 1 0 3 &
+xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Speed" 0.000001 &
+xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Profile Enabled" 0, 0, 1 &
+xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Natural Scrolling Enabled" 1 &
+xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Custom Scroll Step" 0.000001 &
+xinput --set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Custom Motion Step" 0.000001 &
 
 # move escape to it's correct location
-setxkbmap -option caps:swapescape
+setxkbmap -option caps:swapescape &
 
-xrdb -merge "$HOME/.Xresources"
+xrdb -merge "$HOME/.Xresources" -I"$HOME/.Xresources.d"
 
-# [ ! "$(pgrep nm-applet)" ] && nm-applet &
-[ ! "$(pgrep picom)" ] && picom &
-[ ! "$(pgrep dunst)" ] && dunst &
+[ "$(pgrep picom)" ] && killall picom
+[ "$(pgrep dunst)" ] && killall dunst
+[ "$(pgrep xscreensaver)" ] && killall xscreensaver
+
+[ ! "$(pgrep picom)" ] && picomd.sh &
+[ ! "$(pgrep dunst)" ] && exec dunst &
 [ ! "$(pgrep xscreensaver)" ] && exec xscreensaver &
-# [ ! "$(pgrep dwmblocks)" ] && dwmblocks &
-# [ ! "$(pgrep dwm)" ] && exec /usr/local/bin/dwm
 [ ! "$(pgrep dwm)" ] && exec /usr/local/bin/dwm

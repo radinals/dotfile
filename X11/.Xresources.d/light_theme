@@ -1,0 +1,19 @@
+! Modified Solarized Light
+#define FG       #242d30
+#define BG       #e9e9d9
+#define Black0   #000000
+#define Black1   #657b83
+#define Red0     #971f1c
+#define Red1     #971f1c
+#define Green0   #637200
+#define Green1   #637200
+#define Yellow0  #977302
+#define Yellow1  #977302
+#define Blue0    #196aa3
+#define Blue1    #196aa3
+#define Magenta0 #535796
+#define Magenta1 #535796
+#define Cyan0    #207c75
+#define Cyan1    #207c75
+#define White0   #676f6f
+#define White1   #fff7e1
