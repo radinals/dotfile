@@ -5,10 +5,9 @@
 
 RandoWall "$HOME/Pictures/Wallpapers" &
 
-xset r rate 280 80 &
-xset +dpms &
-xset +dpms &
-xset b off &
+xset r rate 280 80 & # set the autorepeat
+xset +dpms & # enable dpms
+xset b off & # turn off bell
 
 # touchpad and trackpoint settings
 xinput --set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1 &

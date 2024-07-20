@@ -8,7 +8,7 @@ set selection-clipboard clipboard
 set font "monospace regular 10"
 set guioptions ""
 set adjust-open width
-set render-loading true
+set render-loading false
 set recolor true
 set zoom-step 1
 # set recolor-keephue true
@@ -61,8 +61,8 @@ set highlight-active-color      "#ff79c6" # Pink
 set default-bg                  "#282036" # Background
 set default-fg                  "#f8f8f2" # Foreground
 
-set render-loading-fg           "#282036" # Background
-set render-loading-bg           "#f8f8f2" # Foreground
+set render-loading-bg           "#282036" # Background
+set render-loading-fg           "#f8f8f2" # Foreground
 
 set recolor-lightcolor          "#282036" # Background
 set recolor-darkcolor           "#f8f8f2" # Foreground
