@@ -35,9 +35,9 @@ bind-key c toggle-show-read-feeds
 
 ## Macros
 # open video in mpv
-macro V set browser "mpv --ytdl-format='bestvideo[height<=?720][fps<=?60]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
-# macro v set browser "mpv --ytdl-format='bestvideo[height<=?480][fps<=?30]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
-macro v set browser "mpv --ytdl-format='bestvideo[height<=?240][fps<=?30]+worstaudio' %u" ; open-in-browser ; set browser "w3m %u"
+macro V set browser "mpv --ytdl --ytdl-format='bestvideo[height<=?720][fps<=?60]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
+macro v set browser "mpv --ytdl --ytdl-format='bestvideo[height<=?480][fps<=?30]+bestaudio/best' %u" ; open-in-browser ; set browser "w3m %u"
+#macro v set browser "mpv --ytdl --ytdl-format='bestvideo[height<=?480][fps<=?30][ext=mp4]+worstaudio[ext=m4a]' %u" ; open-in-browser ; set browser "w3m %u"
 # macro v set browser "mpv --ytdl-format='worstvideo+worstaudio' %u" ; open-in-browser ; set browser "w3m %u"
 
 # open audio only
