@@ -5,11 +5,12 @@
 ! Xft.antialias: true
 *.font: LiterationMono Nerd Font:size=10:autohint=true:antialias=true:style=Regular
 st.font: JetBrainsMono Nerd Font:size=10:autohint=true:antialias=true:style=Regular
-dmenu.font: LiterationSans Nerd Font:size=10:autohint=true:antialias=true:style=Italic, Bold
+dmenu.font: LiterationSans Nerd Font:size=11:autohint=true:antialias=true:style=Italic, Bold
 dwm.font: LiterationSans Nerd Font:size=10:autohint=true:antialias:style=Bold
 Xcursor.size: 12
 
 #include ".Xresources.d/dark_theme"
+#include ".Xresources.d/light_theme"
 
 /* Overrides */
 *.cursorColor: #dc322f
@@ -33,16 +34,16 @@ Xcursor.size: 12
 *.color7:     White0
 *.color15:    White1
 
-#define Accent0 Cyan0
-#define Accent1 Red0
+#define Accent0 Green0
+#define Accent1 #EA6F81
 #define Accent2 Yellow0
 #define Accent3 White0
 
-#define SelBg BG
-#define SelFg Cyan0
+#define SelBg Black0
+#define SelFg #EA6F81
 
 #define NormFg FG
 #define NormBg BG
 
-#include ".Xresources.d/dwm"
+#include ".Xresources.d/suckless"
 #include ".Xresources.d/xscreensaver"

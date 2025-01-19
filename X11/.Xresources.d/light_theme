@@ -1,19 +1,55 @@
 ! Modified Solarized Light
-#define FG       #242d30
-#define BG       #e9e9d9
-#define Black0   #000000
-#define Black1   #657b83
-#define Red0     #971f1c
-#define Red1     #971f1c
-#define Green0   #637200
-#define Green1   #637200
-#define Yellow0  #977302
-#define Yellow1  #977302
-#define Blue0    #196aa3
-#define Blue1    #196aa3
-#define Magenta0 #535796
-#define Magenta1 #535796
-#define Cyan0    #207c75
-#define Cyan1    #207c75
-#define White0   #676f6f
-#define White1   #fff7e1
+#define LIGHT_FG       #242d30
+#define LIGHT_BG       #e9e9d9
+#define LIGHT_Black0   #000000
+#define LIGHT_Black1   #657b83
+#define LIGHT_Red0     #971f1c
+#define LIGHT_Red1     #971f1c
+#define LIGHT_Green0   #637200
+#define LIGHT_Green1   #637200
+#define LIGHT_Yellow0  #977302
+#define LIGHT_Yellow1  #977302
+#define LIGHT_Blue0    #196aa3
+#define LIGHT_Blue1    #196aa3
+#define LIGHT_Magenta0 #535796
+#define LIGHT_Magenta1 #535796
+#define LIGHT_Cyan0    #207c75
+#define LIGHT_Cyan1    #207c75
+#define LIGHT_White0   #676f6f
+#define LIGHT_White1   #fff7e1
+
+! Modified AYU LIGHT
+#define AYU_LIGHT_FG   #000000
+#define AYU_LIGHT_BG   #FFFFFF
+
+! black
+#define AYU_LIGHT_BLACK0 #000000
+#define AYU_LIGHT_BLACK1 #474747
+
+! red
+#define AYU_LIGHT_RED0 #e75252
+#define AYU_LIGHT_RED1 #e75252
+
+! green
+#define AYU_LIGHT_GREEN0 #789b12
+#define AYU_LIGHT_GREEN1 #789b12
+
+! yellow
+#define AYU_LIGHT_YELLOW0  #bc740a
+#define AYU_LIGHT_YELLOW1  #bc740a
+
+! blue
+#define AYU_LIGHT_BLUEA0  #1678be
+#define AYU_LIGHT_BLUEA1  #1678be
+
+! magenta
+#define AYU_LIGHT_MAGENTA0 #7b21d4
+#define AYU_LIGHT_MAGENTA1 #7b21d4
+
+! cyan
+#define AYU_LIGHT_CYAN0 #15a978
+#define AYU_LIGHT_CYAN1 #15a978
+
+! white
+#define AYU_LIGHT_WHITE0    #bcbcbc
+#define AYU_LIGHT_WHITE1    #bcbcbc
