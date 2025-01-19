@@ -1,0 +1,15 @@
+
+URxvt.perl-ext-common: enable-wide-glyphs.patch,improve-font-rendering.patch,256color.patch	
+
+URxvt.font:           xft:JetBrainsMono Nerd Font:size=10:style=Regular
+URxvt.boldFont:       xft:JetBrainsMono Nerd Font:size=10:style=Medium
+URxvt.italicFont:     xft:JetBrainsMono Nerd Font:size=10:style=Italic
+URxvt.boldItalicFont: xft:JetBrainsMono Nerd Font:size=10:style=Medium Italic
+URxvt.xftAutoHint: true
+
+URxvt.scrollBar: false
+URxvt.scrollTtyOutput:   false
+URxvt.scrollWithBuffer:  true
+URxvt.scrollTtyKeypress: true
+URxvt.geometry: 400x400
+URxvt.letterSpace: 0

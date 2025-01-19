@@ -45,5 +45,6 @@ Xcursor.size: 12
 #define NormFg FG
 #define NormBg BG
 
+#include ".Xresources.d/urxvt"
 #include ".Xresources.d/suckless"
 #include ".Xresources.d/xscreensaver"
