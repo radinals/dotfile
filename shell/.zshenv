@@ -5,7 +5,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 # Paths
-export PATH="$PATH:/bin$PATH:/sbin:$HOME/.local/bin:$HOME/.local/bin/scripts"
+export PATH="$PATH:/bin$PATH:/sbin:$HOME/.local/bin:$HOME/.local/bin/scripts:$HOME/.local/share/appimage/"
 # source $HOME/.local/share/cargo/env
 
 # Define default programs
@@ -74,3 +74,6 @@ export SDL_GAMECONTROLLERCONFIG="03000000790000000600000010010000,Microntek USB 
 
 # fzf theme
 export FZFTHEME="--no-scrollbar --border=rounded --header-first --layout=reverse --info=right --color=16,prompt:red,query:yellow,hl+:yellow,hl:yellow,header:green,fg+:yellow,fg:red,bg+:-1,gutter:-1,info:green,bg:-1,separator:-1,pointer:green,border:green,separator:green"
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit
