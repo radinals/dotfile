@@ -1,9 +1,3 @@
-#
-# Change this to a red or gray theme by doing the following in vim:
-#
-#  :%s/lightgreen/light<color>/g
-#  :%s/green/<color>/g
-#
 
 # Directory colors
 set color_win_dir=default
@@ -28,7 +22,7 @@ set color_info=yellow
 set color_win_cur=green
 
 # Color of the separator line between windows in view (1).
-set color_separator=green
+set color_separator=black
 
 # Color of window titles (topmost line of the screen).
 set color_win_title_bg=green
